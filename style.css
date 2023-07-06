@@ -25,3 +25,12 @@ nav {
     padding: 20px 5px;
     border-radius: 8px;
 }
+
+@font-face {
+    font-family: 'Fsthand';
+    src: url('./font/Fasthand-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Fsthand', sans-serif;
+}
