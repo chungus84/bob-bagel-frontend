@@ -12,3 +12,12 @@ header {
 nav {
     margin-bottom: 50px;
 }
+
+@font-face {
+    font-family: 'Fsthand';
+    src: url('./font/Fasthand-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Fsthand', sans-serif;
+}
