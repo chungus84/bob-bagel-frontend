@@ -18,7 +18,23 @@ nav {
     margin-bottom: 50px;
 }
 
+.logo {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 60px;
+    top: 100px;
+    background-color: aliceblue;
+    color: black;
+    align-items: center;
+    padding: 20px 5px;
+    border-radius: 8px;
+}
 
+@font-face {
+    font-family: 'Fsthand';
+    src: url('./font/Fasthand-Regular.ttf') format('truetype');
+}
 
 body {
     font-family: 'ShadowsIntoLight-Regular', Arial;
